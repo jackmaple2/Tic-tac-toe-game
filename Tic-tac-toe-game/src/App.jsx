@@ -34,6 +34,7 @@ import './App.css'
   
     return (
       <>
+        <div className='game-title'><header>Welcome to Tic-Tac-Toe!</header></div>
         <div className="status">{status}</div>
         <div className='game-border'>
           <div className="board-row">

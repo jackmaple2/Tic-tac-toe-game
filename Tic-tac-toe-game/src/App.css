@@ -8,3 +8,7 @@
 .square {
   border-color: black;
 }
+
+.game-title {
+  font-size: large;
+}
