@@ -25,9 +25,12 @@ import './App.css'
     }
   
     const winner = calculateWinner(squares);
+    const isTie = squares.every((square) => square !== null)
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
+    } else if (isTie) {
+      status = "It's a Tie!"
     } else {
       status = 'Next player: ' + (xIsNext ? 'X' : 'O');
     }
