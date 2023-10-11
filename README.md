@@ -1,1 +1,3 @@
 # Tic-tac-toe-game
+This is a basic front-end tic tac toe game built using JavaScript, HTML5, React and CSS. 
+The web-based app allows two users to play this game, where each player takes it in turns to select a square they want to fill with either their allocated cross or naught. The first player to get three of their allocated cross or naught wins the game, and this will be displayed as the status and the game will end here. If the game is a draw, where neither player is able to get three crosses or naughts in a row, the game will end here too, with the status displaying that the game has ended a draw.
